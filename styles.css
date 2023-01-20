@@ -1,0 +1,153 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Andika', sans-serif;
+    color:#1D2E47;
+}
+.nav-bar{
+    /* margin-top:0; */
+    background-color:#1D2E47;
+    color:white;
+    padding:3px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width:100%;
+    top:0;
+    
+}
+.logo{
+    font-family: 'Press Start 2P', cursive;
+}
+.nav-menu{
+    display: flex;
+    cursor: pointer;
+    justify-content: end;
+    align-items: start;
+    
+}
+.nav-menu>li:hover{
+    text-shadow: 0px 0px 4px blue;
+}
+.nav-menu>li{
+    font-weight:bold;
+    margin-right:30px;
+    list-style-type: none;
+}
+.heading{
+    background-image: url("images/lagos.jpg");
+    height:300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.visit-lagos, .lagos-facts{
+    background: #1D2E47;
+    color:white;
+    border-radius:9px;
+    text-shadow: 0px 0px 4px black;
+    
+}
+.visit-lagos{
+    margin-bottom: 0;
+    padding:4px 10px;
+}
+.lagos-facts{
+    padding: 5px 10px;
+    margin-top:8px;
+    width:80%;
+}
+.image{
+    width: 100px;
+    border-radius:90px;
+     height:100px;
+}
+
+.image:hover{
+    width:120px;
+}
+
+
+.items{
+      flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  text-align: center;
+ padding: 10px;
+}
+.guide{
+    padding:15px 20px;
+    margin:60px auto ;
+    width:400px;
+   background: #85a6b1; 
+    color:#1D2E47;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius:20px;
+    /* text-shadow: 0px 0px 5px grey; */
+    border-bottom: 5px solid #1D2E47;
+}
+.guide:hover{
+    background: #1D2E47;
+    color: #85a6b1;
+}
+
+.guide-items{
+    margin-right:10px;
+}
+.guide-img{
+    border-radius: 15px;
+}
+.guide-text{
+    font-weight:bold;
+}
+.history{
+    font-style: italic;
+}
+
+.activities{
+    
+     height:400px;
+     background-color: #f5f9ee;
+     
+}
+
+.activities-sections{
+    
+    margin:0 auto;
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+     align-items: start;
+     padding:10px;
+     /* height: 400px; */
+   
+}
+.activities-heading{
+    font-weight:900;
+}
+.activity-text{
+    font-weight:bold;
+}
+
+.footer{
+    color:white;
+    background: #1D2E47;
+    position: relative;
+    bottom:0;
+    padding:10px;
+    font-style: italic;
+}
